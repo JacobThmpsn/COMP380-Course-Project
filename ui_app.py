@@ -4,23 +4,24 @@ from responder import build_report
 #Page setup
 st.set_page_config(
     page_title="Accessibility Text Difficulty Indicator",
-    page_icon="📘",
     layout="wide"
 )
 
 def score_color(score):
+    #Display colours based on difficulty score
     if score < 20:
-        return "#2e7d32"   # green
+        return "#2e7d32"   
     if score < 40:
-        return "#558b2f"   # light green
+        return "#558b2f"  
     if score < 60:
-        return "#f9a825"   # yellow
+        return "#f9a825"  
     if score < 80:
-        return "#ef6c00"   # orange
-    return "#c62828"       # red
+        return "#ef6c00"  
+    return "#c62828"    
 
 
 def score_description(score):
+    #Quick readability description
     if score < 20:
         return "Easy to read"
     if score < 40:
