@@ -1,0 +1,5 @@
+#Contains the downloadables required to run the app
+streamlit
+openai
+python-dotenv
+wordfreq

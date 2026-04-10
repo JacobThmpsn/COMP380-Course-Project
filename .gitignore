@@ -1,0 +1,5 @@
+#Highlights files to have hidden on Git
+.env
+.venv
+__pycache__
+*.pyc
