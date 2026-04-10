@@ -91,7 +91,7 @@ st.markdown("""
 
 st.markdown('<div class="main-title">Accessibility Text Difficulty Indicator</div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="subtitle">Paste text from an article, post, or document to estimate how difficult it will be to read.</div>',
+    '<div class="subtitle">Paste any text and recieve a detailed report on its reading difficulty along with the meanings of potentially complex words.</div>',
     unsafe_allow_html=True
 )
 
@@ -181,6 +181,6 @@ if analyze:
 
 st.markdown("---")
 st.markdown(
-    '<div class="small-note">This tool estimates reading difficulty using sentence length, syllables, vocabulary frequency, and AI-generated explanation.</div>',
+    '<div class="small-note">This tool estimates reading difficulty using sentence length, syllables and difficult vocabulary frequency.</div>',
     unsafe_allow_html=True
 )
